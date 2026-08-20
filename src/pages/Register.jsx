@@ -132,7 +132,7 @@ export default function Register() {
         />
 
         <button className="button" type="submit" disabled={submitting}>
-          {submitting ? 'Opening record…' : 'Open record'}
+          {submitting ? 'Opening record…' : 'Submit'}
         </button>
       </form>
 
